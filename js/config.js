@@ -74,6 +74,17 @@ window.CONFIG = {
       "\"Berakar pada Budaya, Melangkah Bersama Zaman, dan Mendunia dengan Identitas Bangsa.\""
     ],
 
+    // ----- Teks tambahan di bawah "Filosofi dan Harapan dari Pembuatan Mading" -----
+    // Tiap blok = ["Judul", "Isi"].  \n = baris baru.  **teks** = cetak tebal.
+    extra: [
+      ["Makna \"Roots\" (Akar):",
+       "Melambangkan asal-usul, sejarah, tradisi, serta identitas budaya lokal (seperti kesenian Jaranan, kisah Dewi Songgolangit, dan nilai leluhur) yang menjadi fondasi tempat kita berpijak."],
+      ["Makna \"To Future\" (Menuju Masa Depan):",
+       "Menghubungkan akar tradisi tersebut dengan kemajuan zaman, teknologi, dan dunia global agar budaya kita tidak tertinggal tetapi justru berkembang."],
+      ["\u201cMenjaga Akar, Menggapai Masa Depan\"",
+       "Tanpa akar yang kuat, pohon (generasi muda) tidak akan bisa tumbuh tinggi dan berdiri kokoh menghadapi terpaan angin masa depan. Akar memberikan kestabilan dan sumber kehidupan, sementara masa depan adalah ruang tumbuh bagi generasi muda untuk merentangkan cabang dan menggapai cita-cita setinggi langit tanpa melupakan asal-usulnya.\n\nPelestarian Budaya: Budaya bukan sekadar warisan masa lalu yang hanya dikenang, melainkan identitas yang harus terus dijaga, dikembangkan, dan diperkenalkan lewat cara-cara kreatif serta modern.\n\nWujud Generasi Emas: Menyiapkan generasi muda yang tidak hanya unggul dalam teknologi dan ilmu pengetahuan, tetapi juga memiliki jati diri, wawasan luas, serta rasa bangga yang tinggi terhadap budaya bangsa.\n\nFilosofi Tangga Pendakian: Perjalanan melangkah maju dan menggapai masa depan ibarat menaiki tangga\u2014semakin maju dan naik seklangkah, beban, tantangan, serta tanggung jawabnya akan semakin berat. Semakin tinggi kita mengejar modernisasi dan dunia global, semakin besar pula tuntutan bagi kita untuk menjaga agar tidak kehilangan arah dan tetap memegang teguh jati diri bangsa."]
+    ],
+
     // ----- Behind The Scene (dipindah dari halaman Dokumenter; tampil di bawah teks di atas) -----
     btsTitle: "Behind The Scene Video Recap",
     bts: { video: "https://www.dropbox.com/scl/fi/9zj2y97lyhnbqi2npzzyn/BTS-ARJUNA.mp4?rlkey=o7d2agw497u0qql03psoezyqd&st=p656avmd&dl=0", thumb: "https://drive.google.com/file/d/1U2oY1pnT0wDwcyhmEa30pvYEZ3NygAuB/view?usp=drive_link",
