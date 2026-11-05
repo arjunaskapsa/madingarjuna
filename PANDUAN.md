@@ -28,3 +28,5 @@ Catatan: file di Drive harus dibagikan "Siapa saja yang memiliki link" (opsi `AU
 
 ## 3. Menjalankan
 Buka lewat server (mis. ekstensi Live Server / hosting). Jangan `file://` agar video & font berfungsi penuh.
+
+tes update
