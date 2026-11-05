@@ -75,7 +75,7 @@
     var blocks = home ? M.blocks.slice(0, M.homeCount) : M.blocks;
     var h = home ? "" : '<h2 class="m-title reveal">' + esc(M.title) + "</h2>";
     h += blocks.map(function (s) { return '<div class="txt reveal"><h3>' + esc(s[0]) + "</h3><p>" + rich(s[1]) + "</p></div>"; }).join("");
-    if (!home) h += '<h2 class="m-title2 reveal">' + esc(M.title2) + "</h2>" + M.paragraphs.map(function (p) { return '<div class="txt para reveal"><p>' + rich(p) + "</p></div>"; }).join("");
+    if (!home) h += '<h2 class="m-title2 reveal">' + esc(M.title2) + "</h2>" + M.paragraphs.map(function (p) { return '<div class="txt para reveal"><p>' + rich(p) + "</p></div>"; }).join("") + (M.extra || []).map(function (s) { return '<div class="txt reveal"><h3>' + esc(s[0]) + "</h3><p>" + rich(s[1]) + "</p></div>"; }).join("");
     box.innerHTML = h;
   });
   $$("[data-flip-link]").forEach(function (l) { if (C.flipbookUrl) l.href = C.flipbookUrl; else l.style.display = "none"; });
